@@ -6,7 +6,7 @@ import pandas as pd
 # ---------------- FETCH POSTER ---------------- #
 def fetch_poster(movie_id):
     try:
-        url = f"https://api.themoviedb.org/3/movie/{movie_id}?api_key=e9d8bd87d38bd2ba19a3404db875f100"
+        url = f"https://api.themoviedb.org/3/movie/{movie_id}?api_key=""
         headers = {"User-Agent": "Mozilla/5.0"}
 
         response = requests.get(url, headers=headers, timeout=4)
