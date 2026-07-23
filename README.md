@@ -1,6 +1,6 @@
-# Music_Recommendation_System
+# Movie_Recommendation_System
 
-Music Recommendation System
+Movie Recommendation System
 
 A simple movie recommendation system built with Python and Streamlit. The application recommends movies based on the movie selected by the user.
 
